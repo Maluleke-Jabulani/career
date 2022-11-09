@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: uppercase;
+    transition: all ease .2s ease-out;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+
+}
+section{
+    padding: 2rem 9%;
+    background-color: skyblue;
+
+}
+.header{
+    padding: 0.5rem 9%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1.5rem gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:blue;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    color: skyblue;
+    text-decoration: none;
+}
+
+.header .logo i{
+    color:darkcyan ;
+}
+
+.header .navbar a{
+    font-size: 1.2rem;
+    color: skyblue;
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color:	teal ;
+    background-color: lightcyan;
+    font-size:1.5rem;
+    text-decoration: underline;
+}
+.header a span{
+    color: gold;
+}
+.header .navbar .btn{
+    font-size: 0.9rem;
+    background: darkcyan;
+    border-bottom: 0.2rem solid blue;
+    border-radius: 0;
+}
+
+.header .navbar .btn:hover{
+    color: lightcyan ;
+    background-color: blue;
+    font-size:1rem;
+    border-radius: 0.5rem;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem;
+}
+.home .image{
+    flex: 1 1 45rem;
+}
+.home .image img{
+    width: 100%;
+}
+.home .content{
+    flex: 1 1 45rem;
+}
+.home .content h3{
+    font-size: 1.8rem;
+    color: blue;
+    line-height: 1.8;
+    text-shadow: rgb(0,128,128);
+}
+.home .content p{
+    font-size: 1.2rem;
+    color:  royalblue;
+    line-height: 1.8;
+    padding: 0.9rem;
+    text-transform: lowercase;
+    font-style: italic;
+    
+}
+
+.home .content a{
+    align-items: center;
+    position: relative;
+}
+
+.footer{
+    background: blue;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap:2rem;
+   
+}
+
+.footer .box-container .box h3{
+    font-size: 1.8rem;
+    color: skyblue;
+    padding: 1rem 0;
+}
+.footer .box-container .box a{
+    display: block;
+ font-size: 1.2rem;
+    color: dark cyan;
+    padding: 0.1rem 0;
+   
+
+}
+.footer .box-container .box a i{
+    padding-right: 0.5rem;
+    color:teal;
+    text-transform: lowercase;
+}
+.footer .box-container .box a:hover {
+    padding-right: 2rem;
+}
